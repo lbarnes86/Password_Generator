@@ -43,16 +43,4 @@ function generatePassword() {
     let okNumbers = confirm("Include numbers?");
     let okSpecialChar = condfirm("Include special characters?");
 
-    if (okUppercase) {
-        passwordArray = [...passwordArray, ...upperCaseArray];
-    }
-    if (okLowercase) {
-        passwordArray = [...passwordArray, ...lowerCaseArray];
-    }
-    if (okNumbers) {
-        passwordArray = [...passwordArray, ...numbersArray];
-    }
-    if (okSpecialChar) {
-        passwordArray = [...passwordArray, ...specialCharArray];
-    }
-  }
+
