@@ -32,3 +32,27 @@ function generatePassword() {
       alert("Password length must be between 8 - 128!");
       return "Password length must be between 8 - 128";
   }
+
+  passwordCriteria();
+// Create function for password criteria
+  function passwordCriteria() {
+    passwordArray = [];
+
+    let okUppercase = confirm("Include uppercase letters?");
+    let okLowercase = confirm("Include lowercase letters?");
+    let okNumbers = confirm("Include numbers?");
+    let okSpecialChar = condfirm("Include special characters?");
+
+    if (okUppercase) {
+        passwordArray = [...passwordArray, ...upperCaseArray];
+    }
+    if (okLowercase) {
+        passwordArray = [...passwordArray, ...lowerCaseArray];
+    }
+    if (okNumbers) {
+        passwordArray = [...passwordArray, ...numbersArray];
+    }
+    if (okSpecialChar) {
+        passwordArray = [...passwordArray, ...specialCharArray];
+    }
+  }
