@@ -58,7 +58,7 @@ function generatePassword() {
   }
 
   if (okUppercase === false && okLowercase === false && okNumbers === false && okSpecialChar === false) {
-    alert("You must pick one choice option!");
+    alert("You must pick at least one option!");
     passwordCriteria();
   }
 }
