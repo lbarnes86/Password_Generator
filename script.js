@@ -56,3 +56,12 @@ function generatePassword() {
       passwordArray = [...passwordArray, ...specialCharArray];
   }
 }
+
+// Generate random passwords 
+let passwordSelection = "";
+for (let i=0; i < passLength; i++) {
+  let selection = passwordArray[Math.floor(Math.random() * passwordArray.length)];
+  passwordSelection = passwordSelection + selection;
+}
+
+]
