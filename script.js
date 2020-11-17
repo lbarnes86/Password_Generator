@@ -23,3 +23,12 @@ let specialCharArray = "!#$%&'()*+,-./:;<=>?@[^_`{|}~";
 let passwordArray = [];
 
 
+// Prompts for user to set criteria
+function generatePassword() {
+
+  let passLength = prompt("How many characters would you like? must be between 8 and 128" );
+
+  if (passLength < 8 || passLength > 128 || isNaN(passLength)) {
+      alert("Password length must be between 8 - 128!");
+      return "Password length must be between 8 - 128";
+  }
