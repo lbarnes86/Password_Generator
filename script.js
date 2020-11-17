@@ -1,7 +1,7 @@
 // Assignment Code
 let generateBtn = document.querySelector("#generate");
 
-
+generateBtn.addEventListener("click", writePassword);
 
 // Write password to the #password input
 function writePassword() {
@@ -30,7 +30,7 @@ function generatePassword() {
 
   if (passLength < 8 || passLength > 128 || isNaN(passLength)) {
       alert("Password length must be between 8 - 128!");
-      return "Password length must be between 8 - 128";
+    
   }
 
   passwordCriteria();
@@ -41,7 +41,7 @@ function generatePassword() {
     let okUppercase = confirm("Include uppercase letters?");
     let okLowercase = confirm("Include lowercase letters?");
     let okNumbers = confirm("Include numbers?");
-    let okSpecialChar = condfirm("Include special characters?");
+    let okSpecialChar = confirm("Include special characters?");
 
     if (okUppercase) {
       passwordArray = [...passwordArray, ...upperCaseArray];
@@ -59,9 +59,13 @@ function generatePassword() {
 
 // Generate random passwords 
 let passwordSelection = "";
-for (let i=0; i < passLength; i++) {
+
+for (let i= 0; i < passLength; i++) {
   let selection = passwordArray[Math.floor(Math.random() * passwordArray.length)];
   passwordSelection = passwordSelection + selection;
 }
+document.querySelector("#password");
 
-]
+return passwordSelection;
+  
+}
