@@ -59,6 +59,11 @@ JavaScript framework
 
 ### Screenshots
 ```
+<img width="1202" alt="Screen Shot 2020-11-16 at 10 51 50 PM" src="https://user-images.githubusercontent.com/70309736/99348410-21dbf700-285f-11eb-914e-0bc014dde9fc.png">
+<img width="1222" alt="Screen Shot 2020-11-16 at 10 52 08 PM" src="https://user-images.githubusercontent.com/70309736/99348415-230d2400-285f-11eb-903f-f82b4e9b7700.png">
+<img width="1167" alt="Screen Shot 2020-11-16 at 10 56 39 PM" src="https://user-images.githubusercontent.com/70309736/99348420-24d6e780-285f-11eb-991e-e97bae3469af.png">
+<img width="1054" alt="Screen Shot 2020-11-16 at 10 56 50 PM" src="https://user-images.githubusercontent.com/70309736/99348423-26a0ab00-285f-11eb-8489-f20d16f4b8ea.png">
+
 
 ```
 
