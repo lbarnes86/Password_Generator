@@ -56,6 +56,11 @@ function generatePassword() {
   if (okSpecialChar) {
       passwordArray = [...passwordArray, ...specialCharArray];
   }
+
+  if (okUppercase === false && okLowercase === false && okNumbers === false && okSpecialChar === false) {
+    alert("You must pick one choice option!");
+    passwordCriteria();
+  }
 }
 
 // Generate random passwords 
