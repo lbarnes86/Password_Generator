@@ -4,7 +4,7 @@
 
 </div>
 
-This application creates a random password for users.
+
 
 - [Project Repository](https://github.com/lbarnes86/Password_Generator)
 
@@ -22,20 +22,22 @@ This application creates a random password for users.
 
 ## Description
 
->Create an app that generates a random password meeting the set criteria set by user. Series of prompts will ask for criteria and print/prompt random password for user.
+>This application creates a random password for users. Series of prompts will ask for criteria and print/prompt random password for user.
 
 ## Usage
 
 ```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-
+The Password Generator application can be used to 
+create a strong password that provides greater security
+for anyone with access to sensitive data.
 ```
 
 ## Dependencies
 
 - [JavaScript](https://www.javascript.com/) 
+- [CSS](https://www.w3schools.com/css/css_intro.asp) 
+- [HTML](https://html.com/) 
+
 
 ### Screenshots
 
@@ -49,7 +51,10 @@ SO THAT I can create a strong password that provides greater security
 
 ## Contributors
 
-- Lloyd F Barnes 
+[![GitHub license](https://img.shields.io/badge/Made%20by-Lloyd%20Barnes-ab8c9b?style=flat&logo=github)](https://github.com/lbarnes86)
 
 ## License
-© Lloyd F Barnes, 2020
+
+![License](https://img.shields.io/badge/license-ISC-green")
+
+Copyright© 2021 
